@@ -1,0 +1,43 @@
+{
+    "name": "vova07/comments",
+    "description": "The PHP comments extension write in DDD style.",
+    "type": "extension",
+    "keywords": [
+        "extension",
+        "comments",
+        "testimonials"
+    ],
+    "homepage": "https://github.com/vova07/comments",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Crudu Vasile",
+            "email": "bazillio07@yandex.ru",
+            "homepage": "https://github.com/vova07",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vova07/comments/issues?state=open",
+        "source": "https://github.com/vova07/comments"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "vova07/DDD": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vova07\\Comments": "src",
+            "Vova07\\DDD": "/Users/Vasile/Sites/extensions/ddd/src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
